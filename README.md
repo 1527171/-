@@ -18,8 +18,10 @@
 - [`calculate_cost(count, trans_record)`](#calculate_cost-函数) - 计算单项成本
 - [`output_best_routes(...)`](#output_best_routes-函数) - 输出最优方案
 ### 结果示例
-- [`结果示例`](#结果示例)
+- [结果示例](#result-example)
 ---
+
+
 
 ## 函数详细说明
 
@@ -640,7 +642,7 @@ def backtrack(current_select_repos, uncovered_items):
 | 数据一致性错误   | 候选仓库数据与邻接矩阵不匹配      | 跳过无效仓库并打印警告       |
 
 ---
-### `结果示例` <a id="结果示例"></a>
+### 结果示例 <a id="result-example"></a>
 ```python
 
 候选仓库记录：
